@@ -1,0 +1,37 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="1uFaJupuDBwzbb_-vvJG">
+    <mxGraphModel dx="645" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ykzlijjVsufLv_LrGADB-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ParkingArea" vertex="1">
+          <mxGeometry height="180" width="170" x="490" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ykzlijjVsufLv_LrGADB-8" parent="ykzlijjVsufLv_LrGADB-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- name: String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- capacity: int&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- allowedType: String&amp;nbsp;&lt;br&gt;&lt;div&gt;- vehicles: List&amp;lt;Vehicle&amp;gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ykzlijjVsufLv_LrGADB-9" parent="ykzlijjVsufLv_LrGADB-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ykzlijjVsufLv_LrGADB-10" parent="ykzlijjVsufLv_LrGADB-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value=" + getName()&lt;br&gt;+ getCapacity()&lt;div&gt;+ getAllowedType()&lt;/div&gt;&lt;div&gt;+ getVehicles()&lt;/div&gt;&lt;div&gt;+ getCurrentCount()&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="170" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="ykzlijjVsufLv_LrGADB-15" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="80" x="660" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ykzlijjVsufLv_LrGADB-33" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Vehicle" vertex="1">
+          <mxGeometry height="170" width="170" x="740" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ykzlijjVsufLv_LrGADB-34" parent="ykzlijjVsufLv_LrGADB-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- plateNumber: String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- owner: String&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- type: String&amp;nbsp;&lt;br&gt;&lt;div&gt;- parkingArea: ParkingArea&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ykzlijjVsufLv_LrGADB-35" parent="ykzlijjVsufLv_LrGADB-33" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ykzlijjVsufLv_LrGADB-36" parent="ykzlijjVsufLv_LrGADB-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value=" + getPlateNumber()&lt;br&gt;+ getOwner()&lt;div&gt;+ getType()&lt;/div&gt;&lt;div&gt;+ getParkingArea&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="170" y="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
